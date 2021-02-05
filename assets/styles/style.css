@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Anton;
+    src: url(Anton/Anton-Regular.ttf);
+    font-family: Jomhuria;
+    src: url(Anton/Jomhuria-Regular.ttf);
+    font-family: Exo2-Italic-VariableFont_wght;
+    src: url(Exo_2/Exo2-Italic-VariableFont_wght.ttf);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("/assets/images/bg.jpg");
+    background-size: 100% 100%;
+}
+
+h1, h2 {
+    font-family: "Anton", sans-serif;
+    color: wheat;
+}
+
+h4 {
+    font-family: "Jomhuria", sans-serif;
+    color: wheat;
+}
+
+p, li {
+    font-family: "Exo2-Italic-VariableFont_wght", "Courier New", Courier, monospace;
+    color: wheat;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(11, 13, 27, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.experience-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.experience-item {
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.img-wrapper {
+    border-radius: 50%;
+}
+
+.img-wrapper img {
+    width: 182px;
+}
