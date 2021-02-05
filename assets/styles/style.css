@@ -1,10 +1,10 @@
 @font-face {
     font-family: Anton;
-    src: url(Anton/Anton-Regular.ttf);
+    src: url(/Anton-Regular.ttf);
     font-family: Jomhuria;
-    src: url(Anton/Jomhuria-Regular.ttf);
+    src: url(/Jomhuria-Regular.ttf);
     font-family: Exo2-Italic-VariableFont_wght;
-    src: url(Exo_2/Exo2-Italic-VariableFont_wght.ttf);
+    src: url(/Exo2-Italic-VariableFont_wght.ttf);
 }
 
 html, body {
